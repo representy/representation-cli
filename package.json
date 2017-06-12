@@ -1,6 +1,6 @@
 {
   "name": "representation-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI tool for representation",
   "repository": "git@github.com:salimkayabasi/representation-cli.git",
   "author": "Salim KAYABASI <salim.kayabasi@gmail.com>",
@@ -23,8 +23,8 @@
   "dependencies": {
     "commander": "^2.9.0",
     "log-with": "^1.2.1",
-    "representation": "^0.0.11",
-    "representation-tool-file-reader": "^0.0.3"
+    "representation": "^0.0.14",
+    "representation-tool-file-reader": "^0.0.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
