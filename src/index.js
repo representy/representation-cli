@@ -20,7 +20,7 @@ if (program.log) {
 const ls = (folder) => {
   const dir = path.resolve(process.cwd(), folder);
   logger.debug('Listing files');
-  fs.readdirSync(dir).forEach((file)=> {
+  fs.readdirSync(dir).forEach((file) => {
     logger.debug(`${folder}/${file}`);
   });
 };
