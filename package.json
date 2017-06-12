@@ -1,6 +1,6 @@
 {
   "name": "representation-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI tool for representation",
   "repository": "git@github.com:salimkayabasi/representation-cli.git",
   "author": "Salim KAYABASI <salim.kayabasi@gmail.com>",
