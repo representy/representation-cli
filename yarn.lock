@@ -3128,17 +3128,17 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-representation-tool-file-reader@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/representation-tool-file-reader/-/representation-tool-file-reader-0.0.4.tgz#5bc65540017462b6cd598cd4e1f832b6ebf47960"
+representy-tool-file-reader@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/representy-tool-file-reader/-/representy-tool-file-reader-0.0.5.tgz#8bd71c3472da405fa6ca6e604f02a18e2fefad79"
   dependencies:
     js-yaml "^3.8.4"
     lodash "^4.17.4"
     log-with "^1.2.1"
 
-representation-tool-renderer@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/representation-tool-renderer/-/representation-tool-renderer-0.0.2.tgz#d729207fd275d68c14456db49f4775661d632d77"
+representy-tool-renderer@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/representy-tool-renderer/-/representy-tool-renderer-0.0.3.tgz#088e85df4ed6ff9638681191bc7fff3a785f895d"
   dependencies:
     ejs "^2.5.6"
     lodash "^4.17.4"
@@ -3146,14 +3146,14 @@ representation-tool-renderer@^0.0.2:
     markdown "^0.5.0"
     pug "^2.0.0-rc.2"
 
-representation@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/representation/-/representation-0.0.16.tgz#587f952f66b0910327dc02773ba1f9a360f30621"
+representy@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/representy/-/representy-0.0.17.tgz#3c171ef9c4b37c2ac923d9517b1051e6eb432c81"
   dependencies:
     lodash "^4.17.4"
     log-with "^1.2.1"
     mkdirp "^0.5.1"
-    representation-tool-renderer "^0.0.2"
+    representy-tool-renderer "^0.0.3"
     rimraf "^2.6.1"
 
 request@^2.79.0, request@^2.81.0:
