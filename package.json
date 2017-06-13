@@ -1,12 +1,12 @@
 {
-  "name": "representation-cli",
-  "version": "0.0.6",
-  "description": "CLI tool for representation",
-  "repository": "git@github.com:salimkayabasi/representation-cli.git",
+  "name": "representy-cli",
+  "version": "0.0.7",
+  "description": "CLI tool for representy",
+  "repository": "git@github.com:representy/representy-cli.git",
   "author": "Salim KAYABASI <salim.kayabasi@gmail.com>",
   "license": "MIT",
   "bin": {
-    "representation": "./bin/representation.js"
+    "representy": "./bin/representy.js"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   "dependencies": {
     "commander": "^2.9.0",
     "log-with": "^1.2.1",
-    "representation": "^0.0.16",
-    "representation-tool-file-reader": "^0.0.4"
+    "representy": "^0.0.17",
+    "representy-tool-file-reader": "^0.0.5"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

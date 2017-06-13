@@ -16,13 +16,13 @@ var _logWith = require('log-with');
 
 var _logWith2 = _interopRequireDefault(_logWith);
 
-var _representation = require('representation');
+var _representy = require('representy');
 
-var _representation2 = _interopRequireDefault(_representation);
+var _representy2 = _interopRequireDefault(_representy);
 
-var _representationToolFileReader = require('representation-tool-file-reader');
+var _representyToolFileReader = require('representy-tool-file-reader');
 
-var _representationToolFileReader2 = _interopRequireDefault(_representationToolFileReader);
+var _representyToolFileReader2 = _interopRequireDefault(_representyToolFileReader);
 
 var _package = require('../package.json');
 
@@ -47,10 +47,10 @@ const ls = folder => {
 
 logger.debug('Starting to build');
 const env = process.env;
-const config = _representationToolFileReader2.default.read(_commander2.default.config, env);
-const representation = new _representation2.default(config);
+const config = _representyToolFileReader2.default.read(_commander2.default.config, env);
+const representy = new _representy2.default(config);
 logger.debug('Building');
-representation.build().then(() => {
+representy.build().then(() => {
   ls(config.folder);
   logger.debug('Done');
 });

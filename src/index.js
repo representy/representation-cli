@@ -2,8 +2,8 @@ import program from 'commander';
 import fs from 'fs';
 import path from 'path';
 import logWith from 'log-with';
-import Representation from 'representation';
-import ConfigReader from 'representation-tool-file-reader';
+import Representy from 'representy';
+import ConfigReader from 'representy-tool-file-reader';
 import pkg from '../package.json';
 
 const logger = logWith(module);
@@ -28,9 +28,9 @@ const ls = (folder) => {
 logger.debug('Starting to build');
 const env = process.env;
 const config = ConfigReader.read(program.config, env);
-const representation = new Representation(config);
+const representy = new Representy(config);
 logger.debug('Building');
-representation.build()
+representy.build()
   .then(() => {
     ls(config.folder);
     logger.debug('Done');
