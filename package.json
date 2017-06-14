@@ -23,7 +23,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "log-with": "^1.2.1",
-    "representy": "^0.0.18",
+    "representy": "^0.0.19",
     "representy-tool-config-reader": "^0.0.6"
   },
   "devDependencies": {
