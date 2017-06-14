@@ -1,6 +1,6 @@
 {
   "name": "representy-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "CLI tool for representy",
   "repository": "git@github.com:representy/representy-cli.git",
   "author": "Salim KAYABASI <salim.kayabasi@gmail.com>",
@@ -39,5 +39,4 @@
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4"
   }
-
 }
