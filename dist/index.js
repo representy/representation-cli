@@ -20,9 +20,9 @@ var _representy = require('representy');
 
 var _representy2 = _interopRequireDefault(_representy);
 
-var _representyToolFileReader = require('representy-tool-file-reader');
+var _representyToolConfigReader = require('representy-tool-config-reader');
 
-var _representyToolFileReader2 = _interopRequireDefault(_representyToolFileReader);
+var _representyToolConfigReader2 = _interopRequireDefault(_representyToolConfigReader);
 
 var _package = require('../package.json');
 
@@ -47,7 +47,7 @@ const ls = folder => {
 
 logger.debug('Starting to build');
 const env = process.env;
-const config = _representyToolFileReader2.default.read(_commander2.default.config, env);
+const config = _representyToolConfigReader2.default.read(_commander2.default.config, env);
 const representy = new _representy2.default(config);
 logger.debug('Building');
 representy.build().then(() => {
