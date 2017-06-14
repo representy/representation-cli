@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import logWith from 'log-with';
 import Representy from 'representy';
-import ConfigReader from 'representy-tool-file-reader';
+import ConfigReader from 'representy-tool-config-reader';
 import pkg from '../package.json';
 
 const logger = logWith(module);
